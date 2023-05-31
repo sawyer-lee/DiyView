@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SawyerDiyView</string>
+
+    <string name="btn0">Practice</string>
+    <string name="btn1">BezierTest</string>
+    <string name="btn2">ArcSeekBar</string>
+    <string name="btn3">SmartLoadingView</string>
+    <string name="btn4">SearchView</string>
+    <string name="btn5">LoadingView</string>
+    <string name="btn6">HalfCircle</string>
+    <string name="btn7">PathMeasure</string>
+    <string name="btn8">Clock</string>
+    <string name="btn9">圆形进度条</string>
+    <string name="btn10">开屏logo动画</string>
+    <string name="btn11">正余弦水波纹</string>
+    <string name="btn12">雷达图</string>
+    <string name="btn13">圆形遥控器</string>
+    <string name="btn14">弹球</string>
+
+
+    <string name="normalString">默认文案</string>
+    <string name="errorString">错误文案</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhuozheng.sawyerdiyview">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SecondActivity"/>
+        <activity android:name=".activity.FirstActivity" />
+        <activity android:name=".activity.FallingBallActivity" />
+        <activity android:name=".activity.ControlMenuActivity" />
+        <activity android:name=".activity.HeartBezierActivity" />
+        <activity android:name=".activity.ThreeBezierActivity" />
+        <activity android:name=".activity.TwoBezierActivity" />
+        <activity android:name=".activity.BezierActivity" />
+        <activity android:name=".activity.RadarActivity" />
+        <activity android:name=".activity.SinWaterActivity" />
+        <activity android:name=".activity.ToastActivity" />
+        <activity android:name=".activity.AnimLogoViewActivity" />
+        <activity android:name=".activity.CircleSeekBarActivity" />
+        <activity android:name=".activity.ClockActivity" />
+        <activity android:name=".activity.PathMeasureActivity" />
+        <activity android:name=".activity.HalfCircleActivity" />
+        <activity android:name=".activity.LoadingViewActivity" />
+        <activity android:name=".activity.PracticeActivity" />
+        <activity android:name=".activity.SmartLoadingViewActivity" />
+        <activity android:name=".activity.ArcSeekBarActivity" />
+        <activity android:name=".activity.VerticalSeekBarActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.TestLifeActivity" />
+    </application>
+
+</manifest>

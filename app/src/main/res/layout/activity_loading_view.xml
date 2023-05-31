@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoadingViewActivity">
+
+    <com.zhuozheng.sawyerdiyview.widget.Kawaii_LoadingView
+        android:id="@+id/Kawaii_LoadingView"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="#FFCCFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:blockColor="#ffffff"
+        app:lineNumber="3"
+        app:fixBlock_Angle="5"
+        app:moveBlock_Angle="20"
+        app:blockInterval="8dp"
+        app:half_BlockWidth="15dp"
+        app:initPosition="0"
+        app:isClock_Wise="false"
+        app:moveSpeed="500"
+        app:move_Interpolator="@android:anim/bounce_interpolator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
