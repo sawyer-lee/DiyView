@@ -9,7 +9,7 @@ import androidx.customview.widget.ViewDragHelper
 import java.util.*
 import kotlin.math.min
 
-class ClockView (
+class ClockView @JvmOverloads constructor(
         context:Context,
         attrs:AttributeSet?=null,
         defStyleAttr: Int = 0
@@ -21,7 +21,7 @@ class ClockView (
 
     private var mWidth= 0           // View宽度
     private var mHeight= 0          // View高度
-    private var radius= 30F        // 圆半径，默认300像素
+    private var radius= 300F        // 圆半径，默认300像素
     private val mCircleWidth= 4F    // 表盘宽度
     private val scaleMax = 50       // 表盘整点刻度尺寸
     private val scaleMin = 25       // 表盘非整点刻度尺寸
@@ -32,7 +32,7 @@ class ClockView (
     private val mMinutePointWidth = 10F     // 分针宽度
     private val mSecondPointWidth = 4F      // 秒针宽度
 
-    init {
+    init{
         mPaint.textSize = 35f
         mPaint.typeface = Typeface.DEFAULT_BOLD //时钟数字加粗
         mPaint.isAntiAlias = true
