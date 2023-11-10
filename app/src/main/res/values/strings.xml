@@ -16,8 +16,14 @@
     <string name="btn12">雷达图</string>
     <string name="btn13">圆形遥控器</string>
     <string name="btn14">弹球</string>
+    <string name="btn15">FlowLayout</string>
+    <string name="btn16">ColorTrackTV</string>
+    <string name="btn17">SurfaceView绘制sin函数</string>
+    <string name="btn18">SurfaceView跟手绘制</string>
+    <string name="btn19">VideoView</string>
 
 
     <string name="normalString">默认文案</string>
     <string name="errorString">错误文案</string>
+    <string name="enter">进入</string>
 </resources>

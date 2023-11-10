@@ -121,4 +121,9 @@
         <attr name="verticalOffset" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="ColorTrackTextView">
+        <attr name="originColor" format="color" />
+        <attr name="changeColor" format="color" />
+    </declare-styleable>
+
 </resources>

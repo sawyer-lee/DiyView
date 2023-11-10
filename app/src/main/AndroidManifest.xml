@@ -12,13 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity">
+            android:name=".activity.VideoViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HandWritingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SinFunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ColorTrackTvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.FlowLayoutActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.SecondActivity"/>
+        <activity android:name=".activity.SecondActivity" />
         <activity android:name=".activity.FirstActivity" />
         <activity android:name=".activity.FallingBallActivity" />
         <activity android:name=".activity.ControlMenuActivity" />

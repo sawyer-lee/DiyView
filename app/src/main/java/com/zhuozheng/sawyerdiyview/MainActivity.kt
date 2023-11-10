@@ -10,6 +10,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.zhuozheng.sawyerdiyview.activity.*
 import com.zhuozheng.sawyerdiyview.databinding.ActivityMainBinding
+import com.zhuozheng.sawyerdiyview.widget.SurfaceViewSinFun
 
 class MainActivity : AppCompatActivity() {
 
@@ -78,6 +79,11 @@ class MainActivity : AppCompatActivity() {
         mData.add(HomeBean(resources.getString(R.string.btn12),RadarActivity::class.java))
         mData.add(HomeBean(resources.getString(R.string.btn13),ControlMenuActivity::class.java))
         mData.add(HomeBean(resources.getString(R.string.btn14),FallingBallActivity::class.java))
+        mData.add(HomeBean(resources.getString(R.string.btn15),FlowLayoutActivity::class.java))
+        mData.add(HomeBean(resources.getString(R.string.btn16),ColorTrackTvActivity::class.java))
+        mData.add(HomeBean(resources.getString(R.string.btn17),SinFunActivity::class.java))
+        mData.add(HomeBean(resources.getString(R.string.btn18),HandWritingActivity::class.java))
+        mData.add(HomeBean(resources.getString(R.string.btn19),VideoViewActivity::class.java))
         mData.add(HomeBean("Activity Result API",FirstActivity::class.java))
         mData.add(HomeBean("Test Lifecycle",TestLifeActivity::class.java))
     }
